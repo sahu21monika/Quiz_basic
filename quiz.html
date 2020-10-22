@@ -1,0 +1,88 @@
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA_Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" type=text/css href="quiz.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+ </head> 
+  <body>
+      <!--top section-->
+      <div class="intro py-3 bg-white text-center">
+      <div class="container">
+          <h2 class="text-primary display-4 my-3"> Quiz Competition </h2>
+      </div>
+      </div>
+      <!--result section-->
+      <div class="result py-4 d-none  bg-light text-center">
+          <div class="container lead">
+              <p>You are <span class="text-primary display-4 p-3">0%</span> expert physicist</p>
+          </div>
+      </div>
+      <!--quiz section-->
+     <div class="quiz py-4 bg-primary"> <!-- div.quiz .py-4.bg-primary -->
+       <div class="container">
+        <h2 class="my-5 text-white">on with the questions....</h2>    <!-- h2.my-5.text-white -->
+         <!--quiz form-->  
+           <form class="quiz-form text light">
+                <div class="my-5">
+                  <p class="lead font-weight-normal text-white">1).How would you differentiate between displacement and direction?</p>
+                  <div class="form-check my-2 text-white-50">
+                      <input type="radio" name="q1" value="A" checked>
+                      <label  class="form-check-label">By calculating magnitude?</label>
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1"value="B" >
+                    <label class="form-check-label">By calculating magnitude as well as direction?</label>
+                  </div>
+                </div>
+                  <!--question 2-->
+                <div class="my-5">
+                  <p class="lead font-weight-normal text-white"> 2).Why Earth pull us downward ?</p>
+                  <div class="form-check my-2 text-white-50">
+                      <input type="radio" name="q2" value="A" checked>
+                      <label  class="form-check-label">2 Because Albert Einstien told us </label>
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2"value="B" >
+                    <label class="form-check-label">Due to gravity force</label>
+                  </div>
+                </div>
+                <!--question 3-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal text-white">3).In Units and Dimension MLT stands for?</p>
+                   <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label  class="form-check-label">Mass,Length,Time</label>
+                   </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="B">
+                    <label  class="form-check-label">Motion,Distance,Time period</label>
+                    </div>
+                  </div>
+                  <div class="my-5">
+                      <p class="lead font-weight-normal text-white">4).Is cofficient of friction depends upon force appllied/</p>
+                      <div class="form-check my-2 text-white-50">
+                          <input type="radio" name="q4" value="A" checked>
+                          <label  class="form-check-label">strict No</label>
+                      </div>
+                      <div class="form-check my-2 text-white-50">
+                          <input type="radio" name="q4" value="B">
+                          <label  class="form-check-label">Sometime it depends</label>
+                      </div>
+                  </div>
+                
+                <div class="text-center">
+                    <input type='submit' class="btn btn-dark">
+                </div>
+                </form>
+
+        
+       </div>
+     </div>
+       
+    <script src="quiz.js"></script>
+  </body>
+</html>   
